@@ -1,0 +1,15 @@
+{
+    "name": "Ad Oppressor",
+    "version": "1.0",
+    "description": "Get rid of those annoying ads with my adblocker! *Doesn't work on YT ads*.",
+    "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "icons": {
+        "16": "logos/logo_16x16.png",
+        "48": "logos/logo_48x48.png",
+        "128": "logos/logo_128x128.png"
+    },
+    "manifest_version": 2
+}
